@@ -21,7 +21,7 @@ default_lng: en
 # to prevent adding languages with no folder
 # single language disables language switch
 # language order is linked to array order
-language_switch_lang_list: [en, ja]
+language_switch_lang_list: [en, fa]
 
 # if the opened page is not in the user's language list,
 # suggest language(s) matching with the one(s) in browser language list and user language list.
@@ -43,7 +43,7 @@ html_lng_with_country_code: true
 language_switch_hover_effect: "hover-effect"
 
 # this enables top nav language switch
-language_switch_top_nav: false
+language_switch_top_nav: true
 
 # replace text with owner.brand
 brand_replace: "$site_brand"
