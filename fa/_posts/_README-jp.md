@@ -9,7 +9,7 @@
 [<img src="https://img.shields.io/github/stars/MrGreensWorkshop/MrGreen-JekyllTheme" alt="GitHub stars" data-no-image-viewer>](https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme/blob/main/README-jp.md#readme)
 [<img src="https://img.shields.io/github/license/MrGreensWorkshop/MrGreen-JekyllTheme" alt="GitHub license" data-no-image-viewer>](https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme/blob/main/LICENSE)
 [<img src="https://shields.io/badge/Patreon-Tip%20me-blue?logo=Patreon" alt="Patreonで支援" data-no-image-viewer>](https://patreon.com/MrGreenWorkshop "Patreonで支援")
-[<img src="https://shields.io/badge/Ko--fi-Tip%20me-blue?logo=kofi" alt="Ko-fiで支援" data-no-image-viewer>](https://www.ko-fi.com/MrGreenWorkshop "Ko-fiで支援")
+[<img src="https://shields.io/badge/Ko--fi-Tip%20me-blue?logo=kofi" alt="Ko-fiで支援" data-no-image-viewer>](https://ko-fi.com/MrGreenWorkshop "Ko-fiで支援")
 
 ---
 
@@ -28,7 +28,7 @@
 
 <!-- outline-end -->
 
-私は自分のWebサイトを作るつもりでしたが、それをテンプレートとして作成すれば、オープンソースコミュニティと共有できると思い、テーマとして作ることにしました。 このプロジェクトの作成に多くの時間と労力を費やしました。そのため、[サポートする](https://github.com/MrGreensWorkshop#sponsorship)ことを考えて頂けたら嬉しいです。
+私は自分のWebサイトを作るつもりでしたが、それをテンプレートとして作成すれば、オープンソースコミュニティと共有できると思い、テーマとして作ることにしました。 このプロジェクトの作成に多くの時間と労力を費やしました。そのため、[サポートする](#you-can-support-my-work)ことを考えて頂けたら嬉しいです。
 
 ### Features
 
@@ -87,7 +87,7 @@
 
 ### Documentation
 
-YouTubeの[Mr. Green テーマチュートリアルのプレイリスト](https://www.youtube.com/watch?v=x9lvXBKD2Us&list=PL8XOPe9jXvWOrg6XAulRzy9MQl_-A7Yns)を確認してみてください。
+YouTubeの[Mr. Green テーマチュートリアルのプレイリスト](https://www.youtube.com/playlist?list=PL8XOPe9jXvWOrg6XAulRzy9MQl_-A7Yns)を確認してみてください。
 
 ### Credits
 
@@ -99,9 +99,13 @@ YouTubeの[Mr. Green テーマチュートリアルのプレイリスト](https:
 
 このプロジェクト作成中に見つけた役立つサイトを紹介します。[リンクページへ](https://jekyll-theme-mrgreen-demo.mrgreensworkshop.com/ja/tabs/links.html)
 
-### [You Can Support My Work](https://github.com/MrGreensWorkshop/MrGreensWorkshop/blob/main/README-jp.md#スポンサーシップ)
+### You Can Support My Work
 
 何もないところからプロジェクトを立ち上げるのは、とても時間がかかるものです。私がこの様なプロジェクトに取り組み続け、皆さんに新しいコンテンツを提供できるよう、支援をご検討いただければ幸いです。
+
+- [Patreon](https://patreon.com/MrGreenWorkshop "Patreonで支援")で支援する（月々）
+- [Ko-fi](https://ko-fi.com/MrGreenWorkshop "Ko-fiで支援")で支援する (一回)
+- [GitHubスポンサー](https://github.com/sponsors/MrGreensWorkshop "GitHubスポンサーになる")になる (一回／月々)
 
 ### Contribute
 
