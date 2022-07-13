@@ -24,7 +24,7 @@ layout: util/compress
 {%- endif %}
 
 {%- include multi_lng/get-lng-code.liquid lng = lng -%}
-{%- include multi_lng/get-lng-dir.liquid lng = lng -%}
+{%- assign lng_dir = site.data.lang[lng].lng.dir -%}
 
 <!DOCTYPE html>
 <html lang="{{ lng_code }}" dir="{{ lng_dir }}">
@@ -33,7 +33,7 @@ layout: util/compress
     {% include default/css-include.html %}
   </head>
 
-  <body {{ default_dark }}>
+  <body {{ default_dark }}  >
     {% if color_scheme_enabled -%}
       <script src="{{ site.baseurl }}/assets/js/color-scheme-attr-init.js" data-mode="{{ site.data.conf.main.color_scheme_default_dark }}"></script>
     {%- endif %}
