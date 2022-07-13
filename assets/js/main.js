@@ -10,6 +10,8 @@ layout: util/compress_js
 {% include_relative _js/default/tooltip-init.js %}
 {% include_relative _js/default/show-tooltip.js %}
 
+{%- assign lng_dir = site.data.lang[lng].lng.dir -%}
+
 {% if site.data.conf.main.color_scheme_dark -%}
   {% if site.data.conf.main.color_scheme_switch_side_nav or site.data.conf.main.color_scheme_switch_top_nav -%}
     {% include_relative _js/default/nav/color-scheme-switch.js %}
@@ -17,7 +19,11 @@ layout: util/compress_js
 {%- endif %}
 
 {% if site.data.conf.main.side_nav_toggle_button_no_top_nav_buttons -%}
-  {% include_relative _js/default/nav/side-nav-toggle.js %}
+  {% if lng_dir == 'rtl' %}
+  {% include_relative _js/default/nav/right-side-nav-toggle.js %}
+  {% else %}
+  {% include_relative _js/default/nav/right-side-nav-toggle.js %}
+  {% endif %}
 {%- endif %}
 
 {% if site.data.conf.main.scroll_back_to_top_button -%}
