@@ -15,16 +15,20 @@
   let sideNavWidthVar = '--side-nav-width';
   let sideNavWidthDefVar = '--side-nav-width-def';
   let sideNavHeightVar = '--side-nav-bottom-buttons-container-height';
+  var side = document.dir == "ltr" ? "left" : "right"
 
   function ToggleShowHide() {
     let topNavOn = parseInt(window.getComputedStyle(rootElement).getPropertyValue(sideNavWidthVar)) == 0 ? true : false;
     if (topNavOn == true) {
-      let sideNavOn = parseInt(window.getComputedStyle(sideNavElement).getPropertyValue('right')) == 0 ? true : false;
+      let sideNavOn = parseInt(window.getComputedStyle(sideNavElement).getPropertyValue(side)) == 0 ? true : false;
       let sideNavWidth = parseInt(window.getComputedStyle(rootElement).getPropertyValue(sideNavWidthDefVar));
       let sideNavHeight = parseInt(window.getComputedStyle(rootElement).getPropertyValue(sideNavHeightVar));
       /* open */
       if ( sideNavOn == false ) {
-        sideNavElement.style.right = '0px';
+         if (side == "left") 
+            sideNavElement.style.left = '0px';
+         else 
+            sideNavElement.style.right = '0px';
         if (closeButton) {
           /* first, set the display property, then we can set other properties */
           closeButton.style.display = 'inherit';
@@ -38,7 +42,10 @@
         }
       /* close */
       } else {
-        sideNavElement.style.right = (sideNavWidth * -1) + 'px';
+         if (side == "left") 
+            sideNavElement.style.left = (sideNavWidth * -1) + 'px';
+         else 
+            sideNavElement.style.right = (sideNavWidth * -1) + 'px';
         if (closeButton) {
           closeButton.style.display = 'none';
         }
@@ -52,7 +59,7 @@
   /* if outside of side nav is clicked, close it */
   window.addEventListener('click', function(e) {
     let outsideClicked = (sideNavElement.contains(e.target) == false);
-    let sideNavOn = parseInt(window.getComputedStyle(sideNavElement).getPropertyValue('right')) == 0 ? true : false;
+    let sideNavOn = parseInt(window.getComputedStyle(sideNavElement).getPropertyValue(side)) == 0 ? true : false;
     let topNavOn = parseInt(window.getComputedStyle(rootElement).getPropertyValue(sideNavWidthVar)) == 0 ? true : false;
     if (outsideClicked && sideNavOn && topNavOn) {
       ToggleShowHide();
@@ -66,12 +73,12 @@
 
   /* if window is resized, close side nav */
   window.addEventListener('resize', function(e) {
-    sideNavElement.style.removeProperty('right');
+    sideNavElement.style.removeProperty(side);
     if (closeButton) {
       let topNavOn = parseInt(window.getComputedStyle(rootElement).getPropertyValue(sideNavWidthVar)) == 0 ? true : false;
       if ( topNavOn == false ) {
         closeButton.style.removeProperty('display');
-        closeButton.style.removeProperty('right');
+        closeButton.style.removeProperty(side);
       }
     }
   });

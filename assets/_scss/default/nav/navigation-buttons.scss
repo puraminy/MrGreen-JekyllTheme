@@ -19,6 +19,9 @@
 
   display: inline-block;
   text-align: left;
+  [dir=rtl] & {
+     text-align: right;
+  }
 }
 
 .top-nav-buttons li,

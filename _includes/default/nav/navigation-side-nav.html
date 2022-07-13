@@ -4,6 +4,7 @@
   Licensed under MIT
 {%-endcomment-%}
 
+{%- assign lng_dir = site.data.lang[lng].lng.dir -%}
 <nav id="side-nav-container">
   <div class="side-nav">
     <div class="side-nav-brand">
@@ -25,7 +26,11 @@
     <br>
     {% if site.data.conf.main.side_nav_toggle_button_no_top_nav_buttons and site.data.conf.main.side_nav_toggle_close_button -%}
       <a href="javascript:void(0);" class="side-nav-close">
+        {%- if lng_dir == 'rtl' %}
+        <i class="fa fa-angle-double-right fa-2x" aria-hidden="true"></i>
+        {% else %}
         <i class="fa fa-angle-double-left fa-2x" aria-hidden="true"></i>
+        {% endif %}
       </a>
     {% endif -%}
     <hr>

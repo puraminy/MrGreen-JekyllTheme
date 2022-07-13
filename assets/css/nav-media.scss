@@ -32,6 +32,9 @@
   /* disable side nav */
   #side-nav-container {
     left: calc(-1 * var(--side-nav-width-def));
+    [dir=rtl] & { 
+        right: calc(-1 * var(--side-nav-width-def));
+    }
   }
 
 {% if site.data.conf.posts.post_query == true and site.data.conf.posts.post_query_tabs == true %}

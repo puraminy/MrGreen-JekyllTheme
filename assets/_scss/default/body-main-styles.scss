@@ -7,6 +7,31 @@
   @include get_scheme(body-main-styles-colors-);
 }
 
+@font-face {
+   /* تعریف نام فونت */
+   font-family: 'BYekanWeb';
+   /* اکسپلورر 9 به بعد */
+   src: url('../fonts/BYekanWeb.eot');
+   /* بررسی نصب بودن فونت در سیستم کاربر */
+   src: local('../fonts/bYekanWeb'),
+   /* برای برخی از مرورگرها مانند سافاری */
+   local('B Yekan'),
+   /* هک برای اکسپلورر 8 و ماقبل */
+   url('../fonts/BYekanWeb.eot?#iefix') format('embedded-opentype'),
+   /* فرمت مناسب مرورگرهای خیلی جدید */
+   url('../fonts/BYekanWeb.woff2') format('woff2'),
+   /* فرمت مناسب مرورگرهای تقریبا جدید */
+   url('../fonts/BYekanWeb.woff') format('woff'),
+   /* تمام مرورگرها به جزء اکسپلورر */
+   url('../fonts/BYekanWeb.ttf') format('truetype'),
+   /* نسخه های قدیمی سیستم عامل iOS */
+   url('../fonts/BYekanWeb.svg#BYekanWeb') format('svg');
+   font-style: normal;
+   font-weight: normal;
+   font-display: swap;
+}
+
+
 html {
   /* for comment page_bottom_Check */
   height: 100%;
@@ -32,7 +57,7 @@ body {
   background-color: var(--body-background-color);
   width: 100%;
   border-width: 4px;
-  font-family: "Roboto", sans-serif;
+  font-family: "BYekanWeb", sans-serif;
   /* this fixes black colored padding on the bottom of the page on firefox when address bar auto hides. */
   min-height: 100vh;
 }

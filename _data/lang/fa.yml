@@ -40,10 +40,10 @@ image_viewer:
   load_error: The image could not be loaded.
 
 copyright:
-  additional_text: " All rights reserved."
+  additional_text: "کلیه حقوق محفوظ است"
 
 creative_commons:
-  some_rights_reserved: Some rights reserved.
+  some_rights_reserved: کلیه حقوق محفوظ است
   # check _data/owner/[language].yml for license type.
   by: Except where otherwise noted, content on this web site is licensed under a Creative Commons Attribution 4.0 International License.
   by-nd: Except where otherwise noted, content on this web site is licensed under a Creative Commons Attribution-NoDerivatives 4.0 International License.
