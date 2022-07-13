@@ -105,79 +105,79 @@ post:
 
 # for post-list layout
 post-list:
-  title: Blog
-  button_name: Blog
+  title: بلاگ
+  button_name: بلاگ
   upside_down_tabs:
     tab:
-      all: All
+      all: همه
       categories: Categories
       tags: Tags
       years: Years
       clear: Clear
-      close: Close
+      close: بستن
       tooltip:
-        clear: Clear
-        close: Close
+        clear: پاک
+        close: بستن
     msg:
       property_list:
         # keys need to match with /query/post-query.json
-        tags: Tag
-        category: Category
-        year: Year
+        tags: برچسب
+        category: دسته
+        year: سال
       # you can use these wildcards, {property} {value} {thumb}
       resultFoundTitleFormat: "{property} : {thumb}"
 
 # for home layout
 home:
-  title: Welcome
-  button_name: Home
-  new_posts_title: New Articles
-  new_posts_show_more_button: View More ...
+  title: خوش آمدید 
+  button_name: خانه
+  new_posts_title: مقالات جدید
+  new_posts_show_more_button: مشاهده بیشتر ...
 
 # for archives layout
 archives:
-  title: Archive
-  button_name: Archive
-  page_header: Archive
+  title: بایگانی
+  button_name: بایگانی
+  page_header: بایگانی 
 
 # for about layout
 about:
-  title: About
-  button_name: About
-  email_title: email
+  title: درباره ما
+  button_name: درباره
+  email_title: رایانامه
 
 # for links layout
 links:
-  title: Links
-  button_name: Links
-  link_text: Web site
-  info_text: Info
+  title: پیوندها
+  button_name: پیوندها
+  link_text: وبسایت
+  info_text: اطلاعات
 
 # for projects layout
 projects:
-  title: Projects
-  button_name: Projects
-  read_more_text: Read more
-  read_less_text: Read less
+  title: نمونه کارها 
+  button_name: نمونه کارها
+  read_more_text: مشاهده بیشتر ...
+
+  read_less_text: مشاهده کمتر
 
 # for privacy-policy layout
 privacy-policy:
-  title: &privacy_policy_title Privacy policy
+  title: &privacy_policy_title حریم شخصی
 
 # constants to be replaced for
 constants:
-  greetings: Hello
-  welcome: Welcome
-  sample: Sample
+  greetings: سلام
+  welcome: خوش آمدید
+  sample: نمونه
 
 # for cookie consent
 cookie_consent:
   privacy_policy_link_text: *privacy_policy_title
-  side_nav_setting_button_tooltip: &cookie_settings Cookie settings
+  side_nav_setting_button_tooltip: &cookie_settings تنظیمات کوکی
   panel_bar:
     msg: >
-      This website uses cookies to optimize site functionality.
-      It will be activated with your approval.
+      این سایت برای عملکرد بهتر از کوکی استفاده می کند و این امکان با تایید شما فعال خواهد شد
     privacy_msg: Check $privacy_link.
     buttons:
       accept: &accept_button Allow all
