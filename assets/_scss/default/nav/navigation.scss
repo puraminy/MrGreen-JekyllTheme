@@ -25,6 +25,10 @@
   top: 0;
   border-right: solid 1px var(--side-nav-right-border-color);
   text-align: center;
+  [dir=rtl] & {
+     right: 0;
+     left: auto;
+  }
 }
 
 .side-nav {
