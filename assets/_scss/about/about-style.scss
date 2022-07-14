@@ -5,9 +5,9 @@
 
 .about-container {
   @include get_scheme(about-style-colors-);
-  margin-top: 15%;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-top: 0;
+  // margin-left: 5%;
+  // margin-right: 5%;
   padding: 0;
 }
 
