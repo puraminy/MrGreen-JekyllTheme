@@ -29,7 +29,7 @@
 .project-container {
   margin-left: 5%;
   margin-right: 5%;
-  padding-top: 0;
+  padding-top: 10px;
   padding-bottom: 0;
   margin-bottom: 10px;
 }
@@ -41,6 +41,11 @@
   float: left;
   z-index: 1;
   padding-left: 0;
+  [dir=rtl] & {
+    float: right;
+    padding-right: 0;
+    margin-left:10px;
+  }
 }
 
 .project-container .project-img img {
@@ -105,7 +110,7 @@
 /* date and category font */
 .project-container .project-header > .meta-container p {
   display: inline-block;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 400;
   margin-top: 5px;
   margin-bottom: 3px;
@@ -116,6 +121,9 @@
   text-align: left;
   width: 25%;
   color: var(--project-category-text-color);
+  [dir=rtl] & {
+     text-align:right;
+  }
 }
 
 /* date */
@@ -123,6 +131,10 @@
   text-align: left;
   width: 35%;
   color: var(--project-date-text-color);
+  [dir=rtl] & {
+     text-align:right;
+     float:left;
+  }
 }
 
 .project-container .project-header > .meta-container .fa {

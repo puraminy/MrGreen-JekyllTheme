@@ -31,8 +31,14 @@
   z-index: 1000;
   position: fixed;
   left: 1px;
+  [dir=rtl] & {
+    right:1px;
+  }
 }
 
 .top-nav .top-nav-brand {
   margin-left: 77px;
+  [dir=rtl] & {
+    margin-left:5px;
+  }
 }

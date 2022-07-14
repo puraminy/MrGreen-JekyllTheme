@@ -35,10 +35,18 @@
 .markdown-style ul,
 .markdown-style ol {
   margin-left: -5px;
+  [dir=rtl] & {
+     margin-right: -5px;
+     margin-left: 0px;
+  }
 }
 /* list items indents */
 .markdown-style li {
   margin-left: -15px;
+  [dir=rtl] & {
+     margin-right: -15px;
+     margin-left: 0px;
+  }
 }
 
 .markdown-style p,

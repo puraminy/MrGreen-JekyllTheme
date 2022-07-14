@@ -72,6 +72,10 @@
   font-size: 2.52rem;
   padding-left: 0;
   margin-left: 5px;
+  [dir=rtl] & {
+     padding-left: 10px;
+     margin-left: 5px;
+  }
 }
 
 .side-nav-brand > .brand-holder > a {
