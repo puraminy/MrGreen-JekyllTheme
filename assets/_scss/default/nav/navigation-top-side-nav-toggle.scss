@@ -33,6 +33,7 @@
   left: 1px;
   [dir=rtl] & {
     right:1px;
+    left:unset;
   }
 }
 

@@ -1,7 +1,7 @@
 ---
 # multilingual page pair id, this must pair with translations of this page. (This name must be unique)
 lng_pair: id_responsive
-title: طراحی سازگار با رسانه ارتباطی
+title: طراحی سازگار با انواع رسانه  
 
 # post specific
 # if not specified, .name will be used from _data/owner/[language].yml
@@ -39,9 +39,9 @@ date: 2022-07-14 11:32:53 +0900
 
 {%- comment -%} Please delete below and place your page content here {%- endcomment -%}
 
-### طراحی وبسایت واکنش گرا
+### طراحی واکنش گرا
 
-واکنش گرا ترجمه رایج responsive است و به معنی وبسایتی است که مطابق با دستگاههای مختلف مانند موبایل و رایانه تغییر شکل دهد و امکان مشاهده و استفاده آسان از وبسایت را فراهم کند.  البته شاید ترجمه کنش پذیر مناسب تر باشد.
+واکنش گرا ترجمه رایج responsive است و به معنی وبسایتی است که مطابق با دستگاههای مختلف مانند موبایل و رایانه تغییر شکل دهد و امکان مشاهده و استفاده آسان از وبسایت را فراهم کند.  البته شاید ترجمه **کنش پذیر** مناسب تر باشد.
 
 ![کنش پذیر](:responsive.png)
 

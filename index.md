@@ -48,7 +48,7 @@ img: ":home-heading.jpg"
 
 جهت سفارش کار با شماره های زیر و یا رایانامه تماس بگیرید:
 
-رایانامه: ![email](:email.png)
+رایانامه: ![email](:email.png){:height="50px" width="130px"}
 
 شماره تماس:
 
