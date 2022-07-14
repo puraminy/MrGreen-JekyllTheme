@@ -43,7 +43,7 @@
   <div class="footer-container">
     <footer translate="no">
       {% if site.data.conf.main.main_footer -%}
-        <div class="footer-text {{ footer_class }}">
+        <div class="footer-text text-center {{ footer_class }}">
           <p>{{ copyright_text_out }} </p>
           {%- if site.data.conf.main.creative_commons.enable -%}
             {%- assign license_url = site.data.conf.main.creative_commons.license_url
@@ -60,7 +60,7 @@
           {%- endif -%}
         </div>
       {% endif -%}
-      <p class="footer-powered"><span> </span><a href="https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme" target="_blank" rel="noopener noreferrer">مستر گرین</a></p>
+      <p class="footer-powered text-center"><span> قدرت گرفته از </span><a href="https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme" target="_blank" rel="noopener noreferrer">مستر گرین</a></p>
     </footer>
   </div>
 </div>
