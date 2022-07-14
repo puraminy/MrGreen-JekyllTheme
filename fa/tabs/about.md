@@ -33,10 +33,8 @@ img: ":about.jpg"
 # to disable this page, simply set published: false or delete this file
 #published: false
 ---
+بنده برنامه نویس و طراح وبسایت با سالها تجربه در این زمینه هستم. همینطور دارای مدرک دکتری هوش مصنوعی از دانشگاه تهران و مدرک کارشناسی نرم افزار از دانشگاه شریف و کارشناسی ارشد هوش مصنوعی از دانشگاه علم و صنعت هستم.
 
-{%- comment -%} Please delete below and place your page content here {%- endcomment -%}
+حرفه اصلی بنده پژوهش در حوزه هوش مصنوعی و تدریس در دانشگاه است اما به علت علاقه به طراحی وبسایت و داشتن خلاقیت در این زمینه به شکل پاره وقت وبسایت نیز طراحی می کنم.
 
-{%- include util/auto-content-generator.liquid -%}
-{{ website_info_text_first }}
-
-{{ website_info_text_second }}
+برای سفارش لطفا به ایمیل زیر درخواست خود را بفرستید.

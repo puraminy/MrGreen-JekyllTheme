@@ -8,7 +8,7 @@ use_cdn_resources_if_available: true
 #               Font
 ###########################################################
 # if you want to load in css, change to false. (true is recommended(faster))
-google_font_load_in_head: true
+google_font_load_in_head: false
 google_font_style_url: https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap
 google_font_precon_url: https://fonts.gstatic.com
 
@@ -62,7 +62,7 @@ sample_replace: "$site_sample"
 ###########################################################
 # to enable search feature, set to true
 # if you disable this feature, you don't need search.json file so please open the file and uncomment the "published: false"
-search_enable: true
+search_enable: false
 
 # if this is true, search list hides with mouse leave event
 # if this is false, search list hides with mouse click event
@@ -151,10 +151,10 @@ scroll_back_to_top_button: true
 #                Footer Text
 ###########################################################
 # this enables side navigation bar footer
-side_nav_footer: true
+side_nav_footer: false
 
 # this enables footer text to the bottom of the page
-main_footer: true
+main_footer: false
 
 # this sets footer text position to fixed positioning. Always visible.
 main_fixed_footer: true
@@ -185,12 +185,12 @@ side_and_top_nav_buttons:
     icon: "fa fa-home"
   - post-list:
     icon: "fa fa-pencil-square-o"
-  - archives:
-    icon: "fa fa-archive"
+    #  - archives:
+    #icon: "fa fa-archive"
   - projects:
     icon: "fa fa-cog"
-  - links:
-    icon: "fa fa-link"
+    # - links:
+    #icon: "fa fa-link"
   - about:
     icon: "fa fa-user-o"
 
@@ -238,7 +238,7 @@ copyright_add_text_to_end: false
 
 # this will add creative commons license. check _data/owner/[language].yml for license type.
 creative_commons:
-  enable: true
+  enable: false 
   tooltip: true
   add_all_icons: true
   license_url: "https://creativecommons.org/licenses/$license/4.0/deed.$lng"

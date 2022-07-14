@@ -1,0 +1,37 @@
+# you can move this content to front matter of [language]/tabs/projects.md
+###########################################################
+#                Projects Page Data
+###########################################################
+page_data:
+  main:
+    header: "نمونه کار"
+    info: "در زیر برخی از نمونه کارهای  طراحی وبسایت لیست شده است"
+    text_color: "#157"
+    # if you don't want to use background image, comment it. back_color will be activated.
+    img: ":projects-heading.jpg"
+    back_color: "lightblue"
+
+  category:
+    - title: "جمع آوری اطلاعات"
+      type: id_example
+      color: "gray"
+    - title: "وبسایت شخصی"
+      type: id_picture
+      color: "#62b462"
+
+  list:
+    # example
+    - type: id_example
+      project_name: "جامعه معلولین شهربابک"
+      project_excerpt: "سایت گردآوری و مدیریت اطلاعات معلولین"
+      img: ":project1_thumb.jpg"
+      img_title: "img title1"
+      date: "2021-03-13"
+      post: 
+        ## توضیحات
+
+        این وبسایت شامل فرمهای متعدد برای اخذ اطلاعات معلولین و امکانات ایجاد صفحه شخصی و تشکیل پرونده، مدیریت، طبقه بندی و جستجو در اطلاعات، ایجاد و دانلود فایل اکسل از اطلاعات و دیگر امکانات است که با فن آوریهای جدید و در قالبی زیبا و سازگار با دستگاههای مختلف (موبایل و رایانه) طراحی و پیاده سازی شده است.
+
+
+        <a href="http://babaktavana.ir" >مشاهده وبسایت </a>
+

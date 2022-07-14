@@ -34,6 +34,10 @@
 .new-posts > li span {
   position: absolute;
   right: 0px;
+  [dir=rtl] & {
+    left:0px;
+    right:auto;
+  }
 }
 
 /* add an ellipsis if post title is too long */
