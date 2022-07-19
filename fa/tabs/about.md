@@ -42,13 +42,13 @@ img: ":about.jpg"
 
 رایانامه:
 <a href="javascript:void(0);" 
-onclick="copyToClipboard('pouramini' + '@' + this.dataset.domain + '.' + 'com', 'آدرس کپی شد'); window.location.href = 'mailto:' + this.dataset.name + '@' + this.dataset.domain + '.' + this.dataset.tld; return false;"
+onclick="copyToClipboard(this.dataset.name + '@' + this.dataset.domain + '.' + this.dataset.tld, 'آدرس کپی شد'); window.location.href = 'mailto:' + this.dataset.name + '@' + this.dataset.domain + '.' + this.dataset.tld; return false;"
 data-name="admin"
 data-domain="app123"
 data-tld="ir"
 id="copytoclipboard" data-toggle="tooltip" data-domain="app123" data-placement="top" 
 title="" class="hover-effect-big" data-original-title="کپی کردن آدرس" dideo-checked="true">
-![email](:email.png){:height="90px" class="email" width="160px"}
+![email](:email.png){:height="100px" class="email" width="160px"}
 </a>
 
 شماره تماس:
